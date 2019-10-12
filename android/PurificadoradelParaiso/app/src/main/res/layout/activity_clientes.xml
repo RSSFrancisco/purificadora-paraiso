@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/clientes" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+                android:text="CLIENTES"
+
+                android:textSize="22dp" />
+
+            <Button
+                android:id="@+id/btnRegresarC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorAzulado"
+                android:text="REGRESAR" />
+
+        </LinearLayout>
+
+        <WebView
+            android:id="@+id/wbClientes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+        </WebView>
+
+    </LinearLayout>
+
+</ScrollView>
